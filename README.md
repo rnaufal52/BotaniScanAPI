@@ -74,16 +74,12 @@ npm install
 <P>-development<p>
 
 ```bash
-  
 npm run start-dev
-  
 ```
 <p>-production<p>
 
-```bash
-  
-npm run start
-  
+```bash 
+npm run start  
 ```
 
 # Environment
@@ -107,16 +103,16 @@ REFRESH_TOKEN_KEY= {define your refresh key}
 ```
 
 Then you can use the following image to create your own database:
-
+<h2 align="center">Database design</h2>
 <a href="">
   <img src="images/Bangkit%20Capstone%20Botaniscan.png" />
 </a>
-
-<p align="center">Databases ERD</p>
+<h2 align="center">ERD</h2>
+<p align="center">Databases Design</p>
 <a href="">
   <img src="images/ERD%20Bangkit.png" />
 </a>
-
+<p align="center">Databases ERD</p>
 
 ### Dependency
 
