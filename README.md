@@ -72,12 +72,18 @@ npm install
 2. Make your database and export from database/botaniscan.sql
 3. Run server:
 <P>-development<p>
+
 ```bash
+  
 npm run start-dev
+  
 ```
 <p>-production<p>
+
 ```bash
+  
 npm run start
+  
 ```
 
 # Environment
