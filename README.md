@@ -1,5 +1,5 @@
 <h1 align="center">Botani Scan</h1>
-<div align="center">Capstone project bangkit 2023-Cloud computing</div>
+<p align="center">Capstone project bangkit 2023-Cloud computing</p>
 
 Botani Scan Web Service is a cutting-edge platform that allows users to accurately predict plant diseases by simply uploading images of plant leaves. Currently, the service is undergoing development and is set to introduce new features in the near future. The initial release includes three key features: Pepper Leaf Disease Prediction, Tomato Leaf Disease Prediction, and Potato Leaf Disease Prediction.
 
@@ -51,7 +51,7 @@ The service available:
   <pre>POST  /store</pre>
   <pre>PUT   /store/{storeId}</pre>
   <pre>GET   /store/{storeId}</pre>
-  <pre>DEL   /store/{vegetableId}</pre>
+  <pre>DEL   /store/{storeId}</pre>
 
 # Quick Look
 
