@@ -12,14 +12,14 @@ We appreciate your cooperation and eagerly anticipate providing you with an enha
 The service available:
 
 - Authentications
-  <pre>POST /logins</pre>
+  <pre>POST /login</pre>
   <pre>POST  /register</pre>
   <pre>POST  /refresh</pre>
 
-- User
+- User (under development)
   <pre>GET  /user/{userId}</pre>
   <pre>PUT  /user/{userId}</pre>
-  <pre>DEL is not avalable now</pre>
+  <pre>DEL /user/{userId}</pre>
 
 - Predictions (under development)
   <pre>POST /prediction/potato</pre>
@@ -69,13 +69,13 @@ This project run in node js version 18.13.0.
 ```bash
 npm install
 ```
-2. Make database and copy export from database/botaniscan
-3. Run server in
--development
+2. Make your database and export from database/botaniscan.sql
+3. Run server:
+<P>-development<p>
 ```bash
 npm run start-dev
 ```
--production
+<p>-production<p>
 ```bash
 npm run start
 ```
@@ -103,10 +103,13 @@ REFRESH_TOKEN_KEY= {define your refresh key}
 Then you can use the following image to create your own database:
 
 <a href="">
-  <img src="image/Tanamin%20Diagram-ERD.drawio.png" />
+  <img src="images/Bangkit%20Capstone%20Botaniscan.png" />
 </a>
 
 <p align="center">Databases ERD</p>
+<a href="">
+  <img src="images/ERD%20Bangkit.png" />
+</a>
 
 
 ### Dependency
